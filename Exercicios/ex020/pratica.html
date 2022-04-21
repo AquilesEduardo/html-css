@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práticas</title>
+    <style>
+
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: inline-block;
+            text-align: left;
+            margin: auto;
+        }
+        div{
+            text-align: inherit;
+            background-color: lightslategray;
+            width: 400px;
+            margin-left: 150px;
+            margin-top: -20px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        #detalhes{
+            position: absolute;
+            margin-top: -105px;
+            margin-left: 600px;
+        }
+        #imprimir{
+            background-color: rgb(136, 127, 255);
+            padding: 5px;
+            margin: 0;
+            width: 100px;
+        }
+        ::-webkit-scrollbar{
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track{
+            background-color: #ff0043;
+            border-radius: 30px;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: #000000;
+            border-radius: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <select name="dev_boost" id="dev_boost" placeholder="hshshsh">
+        <optgroup label="Alunos">
+            <option value="aquiles">Aquiles</option>
+            <option value="eduardo">Eduardo</option>
+        </optgroup>
+        <optgroup label="Professores">
+            <option value="brito">Brito</option>
+            <option value="nascimento">Nascimento</option>
+        </optgroup>
+    </select>
+    <div>
+    <h1>Adquirindo conhecimento</h1>
+    <label for="file">Carregando o progresso</label>
+    <progress id="file" value="80" max="100">80%</progress>
+    </div>
+
+    <div id="detalhes">
+    <h1>Aprendendo coisas novas</h1>
+    <details>
+        <summary>Dev Boost</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, libero ad itaque atque doloribus repudiandae quidem fuga, recusandae quos ducimus magnam ipsum modi quis nesciunt cupiditate omnis cumque et quas.
+        </p>
+    </details>
+    </div>
+
+    <div id="imprimir">
+    <button onclick="window.print()">
+        Imprima aqui
+    </button>
+    </div>
+
+    <input type="text" name="Nome" value="" placeholder="Meu pau">
+    
+</body>
+</html>

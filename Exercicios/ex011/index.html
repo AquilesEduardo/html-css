@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 735px )" srcset="imagens/sou-foda1.png" type="image/png">
+        <source media="(max-width: 1390px )" srcset="imagens/sou-foda2.png" type="image/png">
+        <img src="imagens/Sou foda.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em html5</p>
+    <audio src="midia/kids playing.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG . São formatos compatíveis para a maioria dos sites--> 
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/kids playing.mp3" type="audio.mpeg">
+        <source src="midia/kids playing.mp3" type="audio/ogg">
+        <source src="midia/kids playing.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/kids playing.mp3">Clique aqui para baixar seu arquivo MP3</a></p>
+    </audio>
+    
+</body>
+</html> 
