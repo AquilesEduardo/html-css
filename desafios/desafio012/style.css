@@ -4,38 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-header{
-    font-family: 'Passion One', sans-serif;
-    font-size: 2em;
-    
-}
-
 body{
-    font-family: 'Sriracha';
-}
-
-article.primeiro{
-    background-image: url('imagens/background001.jpg');
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.322);
-    background-attachment: fixed;
-    background-position: center left;
-
-}
-article.segundo{
-    background-image: url('imagens/background002.jpg');
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.322);
-    background-attachment: fixed;
-    background-position: center left;
-}
-p#parte01{
-    color: white;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.322);
-}
-p#parte02{
-    color: white;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.322);
+ 
 }
